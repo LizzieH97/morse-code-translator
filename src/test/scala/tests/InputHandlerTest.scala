@@ -22,4 +22,5 @@ test("Testing test") {
     inputHandler.translateOption("hello")
     assert(inputHandler.translatable == "hello")
   }
+
 }

@@ -1,1 +1,1 @@
-["tests.InputHandlerTest"]
+["tests.OutputHandlerTest","tests.InputHandlerTest","tests.TranslatorTest"]
