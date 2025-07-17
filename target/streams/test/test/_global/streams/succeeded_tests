@@ -1,3 +1,5 @@
 #Successful Tests
-#Thu Jul 17 21:20:16 BST 2025
-tests.InputHandlerTest=1752783616000
+#Thu Jul 17 21:42:11 BST 2025
+tests.InputHandlerTest=1752784930975
+tests.OutputHandlerTest=1752784930902
+tests.TranslatorTest=1752784930903
