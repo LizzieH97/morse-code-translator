@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/src/.idea/modules/src/morse-code-translator.src.iml" filepath="$PROJECT_DIR$/src/.idea/modules/src/morse-code-translator.src.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/.idea/modules/src/morse-code-translator.src.main.iml" filepath="$PROJECT_DIR$/src/.idea/modules/src/morse-code-translator.src.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/.idea/modules/src/morse-code-translator.src.src-build.iml" filepath="$PROJECT_DIR$/src/.idea/modules/src/morse-code-translator.src.src-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/.idea/modules/src/morse-code-translator.src.test.iml" filepath="$PROJECT_DIR$/src/.idea/modules/src/morse-code-translator.src.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/.idea/modules/src/src.iml" filepath="$PROJECT_DIR$/src/.idea/modules/src/src.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/.idea/modules/src/src.main.iml" filepath="$PROJECT_DIR$/src/.idea/modules/src/src.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/.idea/modules/src/src.src-build.iml" filepath="$PROJECT_DIR$/src/.idea/modules/src/src.src-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/.idea/modules/src/src.test.iml" filepath="$PROJECT_DIR$/src/.idea/modules/src/src.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/morse-code-translator/testing.iml" filepath="$PROJECT_DIR$/.idea/modules/morse-code-translator/testing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/morse-code-translator/testing.main.iml" filepath="$PROJECT_DIR$/.idea/modules/morse-code-translator/testing.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/morse-code-translator/testing.test.iml" filepath="$PROJECT_DIR$/.idea/modules/morse-code-translator/testing.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/morse-code-translator/testing.testing-build.iml" filepath="$PROJECT_DIR$/.idea/modules/morse-code-translator/testing.testing-build.iml" />
     </modules>
   </component>
