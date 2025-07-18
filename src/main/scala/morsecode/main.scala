@@ -9,10 +9,12 @@ object Main extends App {
 
   def run(): Unit = {
     println("\n🔤 Welcome to your Morse Code Translator!")
-    println("What do you want to translate?\n 1) English to Morse Code \n 2) Morse Code to English")
-
-    val languageOption = readLine()
-    inputHandler.initialOption(languageOption)
+    var valid = false
+    while (!valid) {
+      println("What do you want to translate?\n 1) English to Morse Code \n 2) Morse Code to English")
+      val languageOption = readLine()
+      valid = inputHandler.initialOption(languageOption)
+    }
 
     println("\nType what you want to translate below:")
     val translatable = readLine()

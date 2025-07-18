@@ -5,20 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="328aa4e1-74d3-4c19-93b3-ac5aac003001" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/scala/tests/OutputHandlerTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/tests/TranslatorTest.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/morsecode/InputHandler.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/morsecode/InputHandler.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/morsecode/Translator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/morsecode/Translator.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/morsecode/main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/morsecode/main.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/scala/tests/InputHandlerTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/tests/InputHandlerTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/tests/TranslatorTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/tests/TranslatorTest.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/tests/InputHandlerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/test-classes/tests/InputHandlerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/tests/TranslatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/test-classes/tests/TranslatorTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-zinc/inc_compile_2.12.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/test-zinc/inc_compile_2.12.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/_global/_global/compileOutputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/_global/_global/compileOutputs/previous" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/_global/_global/definedTestNames/data" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/_global/_global/definedTestNames/data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/zinc/inc_compile_2.12.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/zinc/inc_compile_2.12.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/incOptions/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/incOptions/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/compile/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compile/_global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/test/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compileIncremental/_global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/test/definedTests/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/definedTests/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/incOptions/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/incOptions/_global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/test/test/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/test/_global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/test/test/_global/streams/succeeded_tests" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/test/_global/streams/succeeded_tests" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-reports/TEST-tests.InputHandlerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-reports/TEST-tests.InputHandlerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-reports/TEST-tests.OutputHandlerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-reports/TEST-tests.OutputHandlerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-reports/TEST-tests.TranslatorTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-reports/TEST-tests.TranslatorTest.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
