@@ -1,21 +1,25 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(tests.TranslatorTest, org.scalatest.tools.Framework$$anon$1@66d8c758, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(tests.OutputHandlerTest, org.scalatest.tools.Framework$$anon$1@66d8c758, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(tests.InputHandlerTest, org.scalatest.tools.Framework$$anon$1@66d8c758, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(tests.OutputHandlerTest, org.scalatest.tools.Framework$$anon$1@2946cb0d, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(tests.InputHandlerTest, org.scalatest.tools.Framework$$anon$1@2946cb0d, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(tests.TranslatorTest, org.scalatest.tools.Framework$$anon$1@2946cb0d, false, [SuiteSelector])[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mOutputHandlerTest:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- OutputHandler gives translation back to user[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mTranslatorTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- inverseMorse flips the morse code keys and values[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- Translator translates from morse to English[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- Translator translates from English to morse[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mInputHandlerTest:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- Testing test[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- InputHandler shows morse when 1 inputted in the terminal[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- InputHandler shows english when 2 inputted in the terminal[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- InputHandler sets translatable correctly[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 749 milliseconds.[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 8[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- InputHandler asks for a different first option if it's not the number 1 or 2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTranslatorTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- inverseMorse flips the morse code keys and values[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Translator translates from morse to English[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Translator translates from English to morse[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- When translating from English to morse, Translator ignores numbers[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- When translating from English to morse, Translator wraps special characters[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- When translating from morse to English, Translator will throw an unknown error for unknown morse letters and ask to try again[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 1 second, 21 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 12[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 3, aborted 0[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 8, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 12, failed 0, canceled 0, ignored 0, pending 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	tests.OutputHandlerTest[0m

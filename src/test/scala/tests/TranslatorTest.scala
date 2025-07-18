@@ -29,5 +29,28 @@ class TranslatorTest extends AnyFunSuite {
       val result = translator.translate()
       assert(result == ".... . .-.. .-.. ---")
     }
-
+test("When translating from English to morse, Translator ignores numbers"){
+  val inputHandler = new InputHandler()
+  inputHandler.initialOption("1")
+  inputHandler.translatable="hello 2"
+  val translator = new Translator(inputHandler)
+  val result = translator.translate()
+  assert(result == ".... . .-.. .-.. --- / 2")
+}
+  test("When translating from English to morse, Translator wraps special characters"){
+    val inputHandler = new InputHandler()
+    inputHandler.initialOption("1")
+    inputHandler.translatable="hello 2?"
+    val translator = new Translator(inputHandler)
+    val result = translator.translate()
+    assert(result == ".... . .-.. .-.. --- / 2 [?]")
+  }
+  test("When translating from morse to English, Translator will throw an unknown error for unknown morse letters and ask to try again"){
+    val inputHandler = new InputHandler()
+    inputHandler.initialOption("2")
+    inputHandler.translatable = ".....--"
+    val translator = new Translator(inputHandler)
+    val result = translator.translate()
+    assert(result == "Sorry, that's not valid morse!")
+  }
 }

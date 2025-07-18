@@ -22,5 +22,11 @@ test("Testing test") {
     inputHandler.translateOption("hello")
     assert(inputHandler.translatable == "hello")
   }
+test("InputHandler asks for a different first option if it's not the number 1 or 2"){
+  val inputHandler = new InputHandler()
+  val result = inputHandler.initialOption("5")
+  assert(!result)
+  assert(inputHandler.option == "")
+}
 
 }
